@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/game_settings_header"
+        android:key="game_settings">
+        <ListPreference
+            android:key="num_players"
+            android:title="@string/num_players_title"
+            android:defaultValue= "1"
+            android:entries = "@array/listentries_players"
+            android:entryValues = "@array/listvalues_players"/>
+        <EditTextPreference
+        android:key="enemy_spawn_rate"
+        android:title="Spawn Rate of Enemy"
+        android:defaultValue= "1"
+        android:summary="Time between enemy spawns"
+        android:selectAllOnFocus = "true"
+        android:inputType="numberDecimal"/>
+        <EditTextPreference
+            android:key="powerup_spawn_rate"
+            android:title="Spawn Rate of Power-Ups"
+            android:defaultValue= "10"
+            android:summary="Time between power up spawns"
+            android:selectAllOnFocus = "true"
+            android:inputType="numberDecimal"/>
+        <EditTextPreference
+            android:key="player_fire_rate"
+            android:title="Player Fire Rate"
+            android:defaultValue= ".25"
+            android:summary="Time between shots"
+            android:selectAllOnFocus = "true"
+            android:inputType="numberDecimal"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title = "@string/audio_settings_header"
+        android:key = "audio_settings">
+        <CheckBoxPreference
+            android:key="sound_enabled"
+            android:summary="@string/sound_enabled_summary"
+            android:title="@string/sound_enabled_title"
+            android:defaultValue = "true"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

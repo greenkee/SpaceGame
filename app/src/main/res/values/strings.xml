@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Space Shooter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name = "settings_title">Settings</string>
+    <string name="pause_title">Pause</string>
+    <string name="reset_title">Reset</string>
+    <string name="game_settings_header">Game Settings</string>
+    <string name="num_players_title">Number of Players</string>
+    <string name="audio_settings_header">Audio Settings</string>
+    <string name="sound_enabled_title">Sound Enabled</string>
+    <string name="sound_enabled_summary">Turns sound on or off</string>
+    <string name="mode_ready_text">Game Ready\nTap to Begin</string>
+    <string name="mode_paused_text">Paused \nTap to Resume</string>
+
+</resources>

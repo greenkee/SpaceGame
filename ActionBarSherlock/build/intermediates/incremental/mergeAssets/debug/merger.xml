@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="C:\Users\Gateway Oct 2010\Documents\Android Studio Workspace\SpaceShooter\SpaceShooter\ActionBarSherlock\src\main\assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\Gateway Oct 2010\Documents\Android Studio Workspace\SpaceShooter\SpaceShooter\ActionBarSherlock\src\debug\assets" />
+    </dataSet>
+
+</merger>
